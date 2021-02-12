@@ -1,0 +1,29 @@
+{
+	"name": "fastfeedback",
+	"version": "1.0.0",
+	"description": "react2025",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "10.0.6",
+		"react": "17.0.1",
+		"react-dom": "17.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LuisCusihuaman/fastfeedback.git"
+	},
+	"keywords": [
+		"react",
+		"nextjs"
+	],
+	"author": "Luis Cusihuaman",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/LuisCusihuaman/fastfeedback/issues"
+	},
+	"homepage": "https://github.com/LuisCusihuaman/fastfeedback#readme"
+}
