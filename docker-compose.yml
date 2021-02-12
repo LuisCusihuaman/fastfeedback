@@ -28,7 +28,6 @@ services:
       - frontend
     volumes:
       - .:/home/node/app
-      - /home/node/app.next
       - /home/node/node_modules
     labels:
       - traefik.port=3000
