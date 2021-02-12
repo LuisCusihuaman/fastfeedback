@@ -1,4 +1,4 @@
-version: "2.4"
+version: '2.4'
 
 services:
   traefik:
@@ -6,7 +6,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     ports:
-      - "8080:80"
+      - '8080:80'
     command: |
       --docker
       --docker.domain=traefik
@@ -23,7 +23,7 @@ services:
       context: .
       target: dev
     ports:
-      - "3000:3000"
+      - '3000:3000'
     networks:
       - frontend
     volumes:
@@ -33,7 +33,5 @@ services:
     labels:
       - traefik.port=3000
       - traefik.frontend.rule=Host:localhost
-    env_file:
-      - .env
 networks:
   frontend:
