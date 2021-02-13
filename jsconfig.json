@@ -5,6 +5,11 @@
         "@/components/*": ["components/*"],
         "@/lib/*": ["lib/*"],
         "@/styles/*": ["styles/*"]
-      }
+      },
+      "plugins": [
+        {
+          "name": "typescript-styled-plugin"
+        }
+      ]
     }
   }
