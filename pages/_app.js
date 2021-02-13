@@ -1,7 +1,6 @@
 import { ChakraProvider, CSSReset } from '@chakra-ui/react';
-import { AuthProvider } from '../lib/auth';
-import '../styles/globals.css';
-import customTheme from '../styles/theme';
+import { AuthProvider } from '@/lib/auth';
+import customTheme from '@/styles/theme';
 
 export default function App({ Component, pageProps }) {
   return (
