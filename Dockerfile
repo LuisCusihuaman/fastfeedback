@@ -22,7 +22,7 @@ RUN npm config list
 RUN npm install --only=development \
     && npm cache clean --force
 USER node
-CMD ["npm", "run", "dev"]
+CMD ["node_modules/.bin/next", "dev"]
 
 # Production image, copy all the files and run next
 FROM node:lts-alpine AS prod
